@@ -1,0 +1,12 @@
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+- Flexibility and Meaningness of each commit
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+- Application domains (coding for Git vs. General non-coding purposes for Google doc) differ, hence they have different specifications, hence different features.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+- It will store the only changes you haven't committed but you consider committing. It includes part of the working directory. It will be used to build the next commit included in the repository but is unrelated to the repository
