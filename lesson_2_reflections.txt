@@ -1,3 +1,34 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 - It creates a .git folder which will save any commits I may perform later
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+- If several logical changes are made in the working directory, commit one single logical change at a time by adding only changes related to this logical change to the staging area before each commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+- When you want to implement changes that may not be the by-default mode of the program. Examples include :
+  - experimental features
+  - other modes than the default one (example: another language)
+You can implement those changes on a branch, without impacting the development of the main branch, and latter decide whether you like to merge those changes with the ones of the main branch.
+
+How do the diagrams help you visualize the branch structure?
+
+- It highlights the tips of the branches and the last commits before each branch splits from another branch(es). It highlights which commits is (un)reachable from another commit
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+- In the resulting code:
+  - Add any code added by any merged branch
+  - Delete any code deleted by any merged branch
+- Trace all commits of all merged branch as parents of the resulting branch tip . Rank them in chronological order
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros :
+- ease of use
+- Lack of mistakes
+
+Cons :
+- Less knowledge/control of the merges.
