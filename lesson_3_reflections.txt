@@ -1,0 +1,3 @@
+How useful is it to use Github remotely instead of Git locally?
+- For collaboration purposes and in order to access your work from any device
+
